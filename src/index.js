@@ -4,7 +4,7 @@ let CONFIG = {
   defaultCommand: 'g',
   bgColor: '#18181d',
   textColor: '#ebdbb2',
-  showClock: true,
+  showClock: false,
   alwaysNewTab: false,
   gistID: '',
   links: [],
