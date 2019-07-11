@@ -547,6 +547,13 @@ const commands = {
     else redirect(buildURL(url, search, args));
   },
 
+  // 4chan
+  '4ch': (args) => {
+     const url = 'https://4chan.org', search = '';
+     if (args.length == 0) redirect(url)
+     else redirect(buildURL(url, search, args));
+  },
+
   // Reddit
   'r': (args) => {
     const url = 'https://reddit.com', search = '/r/';
