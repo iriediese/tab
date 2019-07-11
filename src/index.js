@@ -2,9 +2,9 @@
 // Default config
 let CONFIG = {
   defaultCommand: 'g',
-  bgColor: '#282828',
+  bgColor: '#18181d',
   textColor: '#ebdbb2',
-  showClock: false,
+  showClock: true,
   alwaysNewTab: false,
   gistID: '',
   links: [],
